@@ -1,0 +1,20 @@
+id: 6f356bcc-a794-4315-a10e-30c5dc2d68c3
+timestamp: 2024-05-07T17:43:27.877Z
+source: TAP-GUI
+username: guest
+options:
+  projectName: devcontainers-fun
+  buildTool: maven
+  springBootVersion: 3.1
+  nativeBuild: false
+  javaVersion: 17
+  includeBuildToolWrapper: true
+  includeDevContainer: true
+accelerator:
+  name: tanzu-java-web-app
+fragments:
+  - name: build-wrapper-gradle
+  - name: build-wrapper-maven
+  - name: devcontainer
+  - name: java-version
+  - name: tap-workload
